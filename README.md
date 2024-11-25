@@ -67,4 +67,92 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
+This project allows users to upload images and input social media content to dynamically generate listings. It includes both a React frontend and an Express backend.
+
+Prerequisites
+Ensure the following are installed on your system:
+
+Node.js (v16 or later)
+npm (Node Package Manager, included with Node.js)
+Installation
+1. Clone the repository
+bash
+Copy code
+git clone https://github.com/your-repo-name.git
+cd your-repo-name
+Backend Setup
+Navigate to the backend directory:
+
+bash
+Copy code
+cd backend
+Install dependencies:
+
+bash
+Copy code
+npm install
+The following packages are installed for the backend:
+
+express: Web server framework
+cors: To enable Cross-Origin Resource Sharing
+multer: Middleware for handling file uploads
+sharp: For image resizing and comparison
+fs and path: Built-in Node.js modules for file system and path handling
+Start the backend server:
+
+bash
+Copy code
+node server.js
+The backend will start on http://localhost:5000.
+
+Ensure the images folder is populated with images to match against uploaded images.
+
+Frontend Setup
+
+Navigate to the frontend directory:
+bash
+Copy code
+cd frontend
+
+Install dependencies:
+bash
+Copy code
+npm install
+The following packages are installed for the frontend:
+
+react: For building user interfaces
+react-dom: To render React components to the DOM
+axios: To handle HTTP requests between the frontend and backend
+
+Start the React development server:
+
+bash
+Copy code
+npm start
+The frontend will start on http://localhost:3000.
+
+Running the Application
+Start the backend server as described above.
+Start the frontend development server.
+Open your browser and go to http://localhost:3000.
+
+Usage
+Input Box: Enter your social media content in the provided input box.
+Upload Image: Upload an image 
+Generate Listing Button: After inputting your content and uploading an image, click this button to process the image and fetch relevant details
+
+Folder Structure
+Frontend: Contains React files for the user interface.
+Backend: Contains the Express server and API logic.
+Uploads: Temporary folder where uploaded images are stored.
+
+Troubleshooting
+CORS Issues: Ensure the backend server has CORS enabled using the cors middleware.
+Frontend Errors: Use the browser's developer console to view errors.
+Port Conflicts: Ensure the backend is running on port 5000 and the frontend is running on port 3000. Modify if necessary in the server.js and React package.json files.
+
+Additional Notes
+Frontend Dependencies: Installed using npm install in the frontend folder.
+Backend Dependencies: Installed using npm install in the backend folder.
+
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
