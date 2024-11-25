@@ -17,7 +17,7 @@ body {
   font-family: 'Roboto', Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
     'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 2;
   background-color: #f9fafc; /* Subtle gray background for better contrast */
   color: #333; /* Standard dark gray for text readability */
   -webkit-font-smoothing: antialiased;
